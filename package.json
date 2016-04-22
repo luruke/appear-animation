@@ -1,0 +1,22 @@
+{
+  "name": "appear-animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "on-appear": "^1.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luruke/appear-animation.git"
+  },
+  "author": "Luigi De Rosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luruke/appear-animation/issues"
+  },
+  "homepage": "https://github.com/luruke/appear-animation#readme"
+}
