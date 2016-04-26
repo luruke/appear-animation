@@ -25,16 +25,15 @@ var AppearAnimation = {
   init: function() {
     for (var i = 0; i < this.elements.length; i++) {
       var el = this.elements[i];
-      this.prepare(el);
       this.register(el);
     }
   },
 
-  prepare: function() {
+  prepare: function(el, instance) {
     // To implement
   },
 
-  run: function(el) {
+  run: function(el, instance) {
     // To implement
   },
 
@@ -44,9 +43,12 @@ var AppearAnimation = {
       delay: this.delay,
       offset: this.offset,
       callback: function() {
-        _this.run(el);
+        _this.run(el, this);
       }
     });
+
+    this.prepare(el, instance);
+    this.instances.push(instance);
   },
 
   destroy: function() {
