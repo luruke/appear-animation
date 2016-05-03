@@ -2,7 +2,7 @@
 
 Fade Up example
 
-```
+```javascript
 var FadeUp = AppearAnimation.create({
   offset: 100,
   delay: 250,
@@ -23,7 +23,7 @@ FadeUp.init();
 
 Complex animation w/ Siblings calculation and Barba.js
 
-```
+```javascript
 const AppearAnimation = require('appear-animation');
 const Barba = require('barba.js');
 const forEach = require('lodash/forEach');
